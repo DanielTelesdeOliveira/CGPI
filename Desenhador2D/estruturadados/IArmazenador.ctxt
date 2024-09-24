@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=IArmazenador
+comment0.text=\r\n\ Interface\ para\ definir\ opera\u00E7\u00F5es\ de\ armazenamento\ e\ recupera\u00E7\u00E3o\ de\ objetos.\r\n\ Esta\ interface\ pode\ ser\ implementada\ por\ v\u00E1rias\ classes\ de\ armazenamento\ que\ gerenciam\ objetos\ em\ cole\u00E7\u00F5es.\r\n\ \r\n\ \u00C9\ usada\ principalmente\ para\ armazenar\ dados\ de\ alunos,\ permitindo\ adicionar,\ remover\ e\ buscar\ alunos\ especificamente,\r\n\ bem\ como\ verificar\ a\ quantidade\ de\ alunos\ e\ se\ a\ cole\u00E7\u00E3o\ est\u00E1\ vazia.\r\n\ \r\n\ Autores\:\ Daniel\ Teles,\ Isadora\ Castelo,\ Joao\ Victor\ Torres,\ Rubens\ Rodrigues\r\n\ Data\:\ 22/05/2024\r\n
+comment1.params=a
+comment1.target=void\ adicionar(java.lang.Object)
+comment2.params=i
+comment2.target=java.lang.Object\ remover(int)
+comment3.params=
+comment3.target=boolean\ estaVazia()
+comment4.params=
+comment4.target=int\ getQtd()
+comment5.params=i
+comment5.target=java.lang.Object\ buscar(int)
+comment6.params=
+comment6.target=java.lang.Object[]\ getArray()
+numComments=7
