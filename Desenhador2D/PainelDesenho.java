@@ -339,12 +339,12 @@ public class PainelDesenho extends JPanel implements MouseListener, MouseMotionL
        
         for(int i = 0; i < tam; i++){
           //  System.out.println(a[i]);
-            if (a[i] instanceof Ponto) {
-                Ponto p = (Ponto) a[i];
-                FiguraPontos.desenharPonto(g, (int)p.getX(), (int)p.getY(), "", getEsp(), Color.green);
+            if (a[i] instanceof PontoGr) {
+                PontoGr p = (PontoGr) a[i];
+                FiguraPontos.desenharPonto(g, (int)p.getX(), (int)p.getY(), "", p.getDiametro(), p.getCorPto());
             } else if(a[i] instanceof Reta){
-                Reta r = (Reta) a[i];
-                FiguraRetas.desenharReta(g, (int)(r.getP1().getX()), (int)(r.getP1().getY()), (int)(r.getP2().getX()),(int)(r.getP2().getY()), "", getEsp(), Color.green);
+                RetaGr r = (RetaGr) a[i];
+                FiguraRetas.desenharReta(g, (int)(r.getP1().getX()), (int)(r.getP1().getY()), (int)(r.getP2().getX()),(int)(r.getP2().getY()), "", r.getEspReta(), r.getCorReta());
             } else if(a[i] instanceof Retangulo){
                 Retangulo ret = (Retangulo) a[i];
                 FiguraRetangulo.desenharRetangulo(g, (int)(ret.getD1().getX()), (int)(ret.getD1().getY()), (int)(ret.getD2().getX()), (int)(ret.getD2().getY()), "", getEsp(), Color.green);
@@ -362,12 +362,12 @@ public class PainelDesenho extends JPanel implements MouseListener, MouseMotionL
     
     public void salvarPrimitivos(){
             if (tipo == TipoPrimitivo.PONTO){
-            Ponto p = new Ponto(x,y);
+            PontoGr p = new PontoGr((int)x,(int)y, getCorAtual(), getEsp());
             armazen.adicionar(p);
             }
     
             else if (tipo == TipoPrimitivo.RETA){
-               Reta r = new Reta(x1,y1,x2,y2);
+               RetaGr r = new RetaGr((int)x1,(int)y1,(int)x2,(int)y2, getCorAtual(), getEsp());
                armazen.adicionar(r);
             }
     
