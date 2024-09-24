@@ -9,7 +9,7 @@ public class PontoGr extends Ponto {
     Color corNomePto  = Color.BLACK; // cor do nome (string) do ponto  
     int diametro = 1; // diametro do ponto, default = 1
 
-    PontoGr(int x, int y){
+    public PontoGr(int x, int y){
         super((double)x, (double)y);
         setCorPto(Color.black);     
         setCorNomePto(Color.black);     
