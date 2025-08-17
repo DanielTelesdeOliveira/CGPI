@@ -1,9 +1,11 @@
 # ✏️ Sistema de Desenho
 
-Esse repositório contém cada artefato produzido para o desenvolvimento de um sistema de desenhos 2D prototipada e implementada em Java.
 <p align="center">
   <img src="assets/desenhador2d.png" alt="Print da interface do desenhador 2D" width="500" />
 </p>
+
+Esse repositório contém cada artefato produzido para o desenvolvimento de um sistema de desenhos 2D prototipada e implementada em Java.
+
 --- 
 
 # 📌 Funcionalidades da Aplicação
