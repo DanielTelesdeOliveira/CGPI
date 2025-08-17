@@ -1,1 +1,1 @@
-
+Pasta para armazenar imagens
