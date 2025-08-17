@@ -20,3 +20,7 @@ Esse repositório contém cada artefato produzido para o desenvolvimento de um s
 - Remoção de figuras por meio de seleção
 
 ---
+
+# 💭 Tecnologias usadas
+- Java (OOP)
+- Java Swing (para interface gráfica)
