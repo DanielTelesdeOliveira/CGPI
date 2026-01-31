@@ -1,0 +1,26 @@
+# ✏️ Sistema de Desenho
+
+<p align="center">
+  <img src="assets/desenhador2d.png" alt="Print da interface do desenhador 2D" width="500" />
+</p>
+
+Esse repositório contém cada artefato produzido para o desenvolvimento de um sistema de desenhos 2D prototipada e implementada em Java.
+
+---
+
+# 📌 Funcionalidades da Aplicação
+
+- Desenho de formas geométricas: reta, circunferência e triângulo
+- Elasticidade aplicada a cada forma desenhada
+- Transformações geométricas disponíveis: <br>
+  - Translação <br>
+  - Rotação <br>
+  - Escala <br>
+- Alteração da cor das figuras desenhadas
+- Remoção de figuras por meio de seleção
+
+---
+
+# 💭 Tecnologias usadas
+- Java (OOP)
+- Java Swing (para interface gráfica)
